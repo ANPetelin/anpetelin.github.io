@@ -1,0 +1,31 @@
+  .field {
+    border-spacing: 0px;
+    
+  }
+  .field td {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightskyblue;
+    cursor: crosshair;
+  }
+
+  .field td.ship {
+    background-color: gray;
+  }
+
+  .field td.attacked {
+    background-color: red;
+  }
+
+  .field td.destroyed {
+    background-color: black;
+  }
+
+@media (max-width: 700px) {
+    .field td {
+        width: 25px;
+        height: 25px;
+    }
+}

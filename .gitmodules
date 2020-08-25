@@ -1,0 +1,3 @@
+[submodule "react-battleship"]
+	path = react-battleship
+	url = https://github.com/anpetelin/react-battleship

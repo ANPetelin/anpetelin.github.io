@@ -1,0 +1,80 @@
+
+
+table {
+  margin-left: 40px;
+    border-spacing: 0px;
+}
+  
+table td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+.nextDetail {
+    background-color: orange;
+}
+  
+.detail {
+    background-color: red;
+}
+
+.blockage {
+    background-color: blue;
+}
+
+.gameField {
+      display: grid;
+      grid-template-columns: 150px 140px;
+      grid-gap: 1em;
+
+}
+
+.nextDetails{
+    margin: auto;
+    width: 150px;
+    margin-left: 40px;
+}
+.nextDetails td {
+    width: 15px;
+    height: 15px;
+    border: 0px solid black;
+    text-align: center;
+}
+.button {
+    text-align: center;
+} 
+
+.button td {
+    border: 0px solid black;
+    text-align: center;
+    padding: 1px;
+}
+
+.count {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+:focus {
+    background-color: white;
+}
+
+button {
+  width: 100px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.gameTatrisFlied {
+}
+
+@media (max-width: 700px) {
+    table td {
+        width: 20px;
+        height: 20px;
+    }
+}

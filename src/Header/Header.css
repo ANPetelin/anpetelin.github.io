@@ -1,0 +1,33 @@
+.header {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+    font-family: inherit;
+    cursor: zoom-in;
+    color: #000;
+}
+
+:hover {
+    color: black;
+}
+
+#navbarText {
+    margin-left: 100px;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,.0);
+}
+
+.page-body-sidebar-collapsed {
+    margin-left: 20px !important;
+}
+
+.page-body {
+    
+    margin-left: 300px
+}
